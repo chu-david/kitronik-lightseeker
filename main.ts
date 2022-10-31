@@ -11,7 +11,7 @@ basic.forever(function () {
         Kitronik_Move_Motor.spin(Kitronik_Move_Motor.SpinDirections.Right, 20)
         basic.pause(20)
         Kitronik_Move_Motor.move(Kitronik_Move_Motor.DriveDirections.Forward, 20)
-        basic.pause(20)
+        basic.pause(100)
         Kitronik_Move_Motor.spin(Kitronik_Move_Motor.SpinDirections.Left, 20)
         basic.pause(20)
     }
